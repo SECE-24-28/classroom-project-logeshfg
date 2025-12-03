@@ -1,0 +1,35 @@
+.but01{
+    background-color: orangered;
+}
+
+.but01:hover{
+    background-color: grey;
+    color:white;
+}
+
+.but02{
+    background-color: grey;
+    color:white
+}
+
+.but02:hover{
+    background-color: orangered;
+    color:black;
+}
+
+button{
+    background-color: orangered;
+}
+button:hover{
+    background-color: red;
+    color:white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.but02:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.but01:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
