@@ -1,21 +1,31 @@
 #addition{
     width: 60px;
     margin: 0 5px;
+    background-color: orangered;
+}
+
+#addition:hover{
+    background-color: grey;
+    color:white;
 }
 
 #subraction{
     width: 60px;
     margin: 0 5px;
+    background-color: rgb(135, 135, 255);
 }
 
 #product{
     width: 60px;
     margin:5px;
+    background-color: red;
 }
 
 #division{
     width: 60px;
     margin:5px;
+    background-color: black;
+    color:white;
 }
 
 .but1{
