@@ -1,0 +1,32 @@
+#addition{
+    width: 60px;
+    margin: 0 5px;
+}
+
+#subraction{
+    width: 60px;
+    margin: 0 5px;
+}
+
+#product{
+    width: 60px;
+    margin:5px;
+}
+
+#division{
+    width: 60px;
+    margin:5px;
+}
+
+.but1{
+    width: 100px;
+    margin:5px;
+}
+.but2{
+    width: 100px;
+    margin:5px;
+}
+
+.but3{
+    width: 250px;
+}

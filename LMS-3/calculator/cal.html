@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <center>
+        <header>
+            <h1> Calculator Appilcation</h1>
+            <h3>You have loginned successfully!</h3>
+        </header>
+        <p></p>
+        <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p></p>
+        <h1>Enter the values</h1>
+        <p></p>
+        <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+        <p></p>
+        <form action="">
+           <fieldset>
+             <table>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num1">Number_1:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="num1" required placeholder="Enter the num1 value">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="num2">Number_2:</label>
+                    </td>
+                    <td>
+                        <input type="number" id="num2" required placeholder="Enter the num2 value">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" id="addition" onclick="cal1()">add</button>
+                        <button type="button" id="subraction" onclick="cal2()">sub</button>
+                        <button type="button" id="product" onclick="cal3()">pro</button>
+                        <button type="button" id="division" onclick="cal4()">divi</button>
+                    </td>
+                </tr>
+            </table>
+           </fieldset>
+           <p></p>
+            <table>
+                <tr>
+                    <td>
+                        <button type="reset" class="but1">Clear</button>
+                    </td>
+                    <td>
+                        <a href="../log_calculator/exiting.html">
+                            <button type="button" class="but2"> Exit</button>
+                        </a>
+                    </td>      
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <a href="../log_calculator/login.html">
+                            <button type="button" class="but3"> Go to login page</button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p></p>
+    </center>
+    <script src="./script.js"></script>
+</body>
+</html>
