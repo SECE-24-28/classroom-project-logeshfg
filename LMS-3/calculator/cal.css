@@ -70,8 +70,8 @@
 }
 
 .but3:hover{
-    background-color: lightslategray;
-    box-shadow: 3px 3px lightsteelblue;
+    background-color: rgb(255, 143, 143);
+    box-shadow: 3px 3px 3px  rgb(255, 0, 0);
 }
 
 
